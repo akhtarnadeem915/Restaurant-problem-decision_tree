@@ -5,4 +5,5 @@ this is the basic implementation of it, dataset contains only 12 samples in tota
 the code takes input from user, and based on that it predicts that one should wait or not.
 
 
-![alt text](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/restaurant.png)
+![output](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/output.jpeg)
+![output tree](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/restaurant.png)
