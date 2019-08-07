@@ -6,22 +6,22 @@ import pandas as pd
 import random
 
 data = pd.read_csv('restaurant.csv')
-feature_cols = ['Alternate','Bench','Hungry','Est-waiting','Price','Rain','Reservation','Patrons']
+feature_cols = ['Alternate','Bench','Hungry','Waiting','Costly','Rain','Reservation','Patrons']
 # convert the string categorical values into an integer code using factorize method of the pandas library.
 data['Alternate'],_ = pd.factorize(data['Alternate'])
 data['Bench'],_ = pd.factorize(data['Bench'])
 data['Hungry'],_ = pd.factorize(data['Hungry'])
 data['Patrons'],_ = pd.factorize(data['Patrons'])
-data['Price'],_ = pd.factorize(data['Price'])
+data['Costly'],_ = pd.factorize(data['Costly'])
 data['Rain'],_ = pd.factorize(data['Rain'])
 data['Reservation'],_ = pd.factorize(data['Reservation'])
-data['Est-waiting'],_ = pd.factorize(data['Est-waiting'])
+data['Waiting'],_ = pd.factorize(data['Waiting'])
 
 X = data[feature_cols]
 y = data['Wait']
 
 #Create the instance of DecisionTreeClassifier with max_depth = None i.e till leaf node & random_state=0 for maintaining state
-tree_clf = DecisionTreeClassifier(max_depth=None, random_state=0)
+tree_clf = DecisionTreeClassifier(max_depth=None, random_state=1)
 
 #train the classifier
 tree_clf.fit(X, y)
@@ -32,10 +32,12 @@ alternate = int(input("Alternate: "))
 bench = int(input("Bench: "))
 hungry = int(input("Hungry: "))
 rain = int(input("Rain: "))
+waiting = int(input("Waiting: "))
+costly = int(input("Costly: "))
 reservation = int(input("Reservation: "))
 patrons = int(input("Patrons: "))
 #predict
-y_predict = tree_clf.predict([[alternate,bench,hungry,1,0,rain,reservation,patrons]])
+y_predict = tree_clf.predict([[alternate,bench,hungry,waiting,costly,rain,reservation,patrons]])
 print("As per situaution it is better to",y_predict)
 
 #visualization
