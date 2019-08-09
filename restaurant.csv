@@ -1,4 +1,4 @@
-Alternate,Bench,Hungry,Waiting,Costly,Rain,Reservation,Patrons,Wait
+Alternate,Bench,Hungry,Waiting,Costly,Rain,Reservation,Patrons,Decision
 No,No,No,No,No,No,No,Some,Wait
 Yes,No,Yes,No,Yes,No,Yes,Some,Wait
 Yes,No,Yes,Yes,No,No,No,Full,Leave
