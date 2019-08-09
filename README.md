@@ -27,5 +27,5 @@ and enter y when asked
 ## 3) Run the code
   
 ## Output:-
-![output](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/output.jpeg)
-![output tree](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/restaurant.png)
+![output](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/output.png)
+![output tree](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/output-tree.png)
