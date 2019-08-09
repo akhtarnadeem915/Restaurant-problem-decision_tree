@@ -21,7 +21,10 @@ In Windows:- open **Windows PowerShell(Admin)** - copy and paste the below lines
 
 wait.......after installation is completed, type the below command to install Graphviz   
 **choco install Graphviz**   
-and enter y when asked 
+and enter y when asked    
+
+## 2) download the csv
+## 3) Run the code
   
 ## Output:-
 ![output](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/output.jpeg)
