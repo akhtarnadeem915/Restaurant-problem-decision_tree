@@ -1,10 +1,10 @@
 # Restaurant-problem-decision_tree
-Code Language - Python (version - 3)
+Code Language - Python (version - 2 & 3)
 Problem to wait for a table at a restaurant. A decision tree decides whether to wait or not in a given situation.
 this is the basic implementation of it, dataset contains only 13 samples in total, as it is a very small dataset i have'nt splitted it and neither calculated the Entropy,
 the code takes input from user, and based on that it predicts that one should wait or not.   
 for running the code follow the steps.
-## 1) import all the libraries.
+## 1) Download dependencies.
 
 windows/linux:-   
 **python -m pip install scikit-learn   
