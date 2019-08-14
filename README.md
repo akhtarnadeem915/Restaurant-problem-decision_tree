@@ -23,7 +23,7 @@ wait.......after installation is completed, type the below command to install Gr
 **choco install Graphviz**   
 and enter y when asked    
 
-## 2) Download the csv [restaurant.csv]
+## 2) Download the csv [Here](https://github.com/akhtarnadeem915/Restaurant-problem-decision_tree/blob/master/restaurant.csv)
 ## 3) Run the code
   
 ## Output:-
